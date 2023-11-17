@@ -1,0 +1,6 @@
+.layer{
+    border-bottom: 2px solid #F0F0F0;
+}
+#mirror-image{
+    transform: scaleX(-1);
+}
