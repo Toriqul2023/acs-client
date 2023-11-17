@@ -5,7 +5,7 @@ import Homes1 from '../../../../public/home.jpg'
 
 const Homes = () => {
   return (
-    <div className='layer  bg-white p-5  h-[700px]'>
+    <div className='layer  bg-white lg:p-5  h-[700px]'>
         <div className='w-[60%] mx-auto '>
             <div className="row grid lg:grid-cols-2 justify-between items-center gap-3">
                 <div>
