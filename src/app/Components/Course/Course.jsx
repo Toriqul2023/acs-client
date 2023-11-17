@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import './Course.css'
-import Course1 from '../../../../public/Course1.jpg'
-import Course2 from '../../../../public/Course2.jpg'
+import Course1 from '../../../../public/course1.jpg'
+import Course2 from '../../../../public/course2.jpg'
+import Course3 from '../../../../public/Seminar-pana.png'
 
 const Course = () => {
   return (
@@ -41,7 +42,7 @@ const Course = () => {
         </div>
         <div className='shadow-xl hover:shadow-2xl'>
             <div className="card-image">
-               <Image src={Course1} className='course-image'  width={500} height={500} alt='course1' />
+               <Image src={Course3} className='course-image'  width={500} height={500} alt='course1' />
             </div>
             <div className="card-body ">
                 <h3 className='text-2xl mb-4 font-bold text-center text-[#2F4342]'>আলফা ২০২৬</h3> 
