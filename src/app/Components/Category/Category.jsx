@@ -9,7 +9,7 @@ import './Category.css'
 
 const Category = () => {
   return (
-    <div className='layer p-[60px] bg-white'>
+    <div className='layer lg:p-[60px] bg-white'>
         <div className='w-[80%] lg:w-[60%] mx-auto'>
              <div className="row grid lg:grid-cols-3 gap-4">
                 <div className='flex justify-evenly items-center shadow-lg rounded-lg py-5 hover:shadow-2xl'>
