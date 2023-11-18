@@ -6,7 +6,7 @@ import './About.css'
 const About = () => {
   return (
     <div className='layer bg-white lg:p-5'>
-    <div className='w-[60%] mx-auto'>
+    <div className='lg:w-[60%] w-[80%] mx-auto'>
         <div className="row grid lg:grid-cols-2 justify-between items-center gap-3">
             <div className='place-self-start'>
             <Image id="mirror-image" src={Abouts} alt="home1" width={500} height={500}/>

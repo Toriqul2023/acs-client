@@ -3,12 +3,12 @@ import React from 'react'
 import './Course.css'
 import Course1 from '../../../../public/course1.jpg'
 import Course2 from '../../../../public/course2.jpg'
-import Course3 from '../../../../public/Seminar-pana.png'
+import Course3 from '../../../../public/course3.png'
 
 const Course = () => {
   return (
     <div className='layer lg:p-5 bg-white'>
-        <div className='w-[60%] mx-auto'>
+        <div className='lg:w-[60%] w-[80%] mx-auto'>
         <div className="heading text-center py-5">
             <h1 className='lg:text-4xl text-2xl my-4 font-bold text[#2F4342]'>আমাদের জনপ্রিয় কোর্সসমূহ</h1>
             <p className='text-[15px]'>এক ঝলকে দেখে নিন আমাদের করা সব জনপ্রিয় কোর্স ,  পছন্দ মতো ভর্তি হন যেটা আপনার প্রয়োজন। কোনো কোর্স বিস্তারিত জানতে চাইলে নিকটস্থ ব্রাঞ্চে যোগাযোগ করুন। </p> 

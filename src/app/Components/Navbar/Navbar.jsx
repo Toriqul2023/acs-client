@@ -6,7 +6,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className='head bg-white p-1 '>
-        <div className="nav w-[60%] mx-auto">
+        <div className="nav lg:w-[60%] w-[80%] mx-auto">
         <div className="navbar">
   <div className="navbar-start">
     <div className="dropdown">
