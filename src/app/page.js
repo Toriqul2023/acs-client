@@ -4,6 +4,7 @@ import Homes from './Components/Home/Homes'
 import About from './Components/About/About'
 import Course from './Components/Course/Course'
 import Category from './Components/Category/Category'
+import Subabout from './Components/Subabout/Subabout'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
      <Category/>
      <About/>
      <Course/>
+     <Subabout/>
    </>
   )
 }
