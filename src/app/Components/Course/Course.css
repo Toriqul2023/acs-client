@@ -4,6 +4,6 @@
 .course-image{
      height: 300px;
      width: auto;
-     display: inline-block;
+     display:block;
      margin: auto;
 }

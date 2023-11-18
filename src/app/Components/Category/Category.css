@@ -1,0 +1,10 @@
+.layer{
+    border-bottom: 2px solid #F0F0F0;
+}
+.box-round{
+    background-color:#FFC802;
+    border-radius: 50%;
+}
+.icon icon{
+    color:aqua;
+}

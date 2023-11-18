@@ -14,7 +14,8 @@ const Homes = () => {
                      শিক্ষার্থীর ভুলগুলো শুধরে সহজ ট্রিক শিখিয়ে কীভাবে ভার্সিটি ক্র্যাক করা যায় তা দেখানো মুল লক্ষ্য।
                     সঠিক প্রস্তুতি ও মানসম্মত পরীক্ষা নিয়ে যাবে স্বপ্ন পুরোনের এক ধাপ সামনে । 
                    </p>
-                   <button className='py-[10px] px-[25px] rounded-lg bg-[#FEC800] my-5 shadow-lg hover:shadow-2xl bg-[#FFC802]'>ভর্তি বিস্তারিত</button>
+                   <button className='py-[10px] px-[25px] rounded-lg bg-[#FEC800] my-5 shadow-lg hover:shadow-2xl bg-[#FFC802] mr-5'>অনলাইন</button>
+                   <button className='py-[10px] px-[25px] rounded-lg bg-[#FEC800] my-5 shadow-lg hover:shadow-2xl bg-[#FFC802]'>অফলাইন</button>
                   
                 </div>
                 <div className=''>

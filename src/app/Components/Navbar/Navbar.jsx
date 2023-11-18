@@ -29,19 +29,16 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <Link href='/' className='mx-3'>Item 1</Link>
+      <Link href='/' className='mx-3 text-xl'>হোম</Link>
    
-      <Link href='/' className='mx-3'>Item 2</Link>
+      <Link href='/' className='mx-3 text-xl'>আমাদের সম্পর্কে</Link>
    
-      <Link href='/' className='mx-3'>Item 3</Link>
-   
-      <Link href='/' className='mx-3'>Item 4</Link>
-   
-      
+      <Link href='/' className='mx-3 text-xl'>কোরস</Link>
+  
     </ul>
   </div>
   <div className="navbar-end">
-    <button className='btn btn-primary'>Search</button>
+    <button className='btn bg-[#FFC802]'>Search</button>
   </div>
 </div>
         </div>
