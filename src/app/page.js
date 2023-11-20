@@ -5,6 +5,7 @@ import About from './Components/About/About'
 import Course from './Components/Course/Course'
 import Category from './Components/Category/Category'
 import Subabout from './Components/Subabout/Subabout'
+import Footer from './Components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
      <About/>
      <Course/>
      <Subabout/>
+     <Footer/>
    </>
   )
 }

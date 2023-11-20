@@ -5,7 +5,7 @@ import Subabout1 from '../../../../public/sub-about1.png'
 
 const Subabout = () => {
   return (
-    <div className='bg-white layer p-5'>
+    <section className='bg-white layer p-5'>
           <div className='w-[80%] lg:w-[60%] mx-auto'>
             <div className="row lg:flex column-reverse items-center  gap-[50px]   my-2">
                <div >
@@ -49,7 +49,7 @@ const Subabout = () => {
             </div>
 
           </div>
-    </div>
+    </section>
   )
 }
 

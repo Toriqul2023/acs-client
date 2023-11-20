@@ -7,7 +7,7 @@ import Course3 from '../../../../public/course3.png'
 
 const Course = () => {
   return (
-    <div className='layer lg:p-5 bg-white'>
+    <section id='course' className='layer lg:p-5 bg-white'>
         <div className='lg:w-[60%] w-[80%] mx-auto'>
         <div className="heading text-center py-5">
             <h1 className='lg:text-4xl text-2xl my-4 font-bold text[#2F4342]'>আমাদের জনপ্রিয় কোর্সসমূহ</h1>
@@ -58,7 +58,7 @@ const Course = () => {
      
 
 
-    </div>
+    </section>
   )
 }
 

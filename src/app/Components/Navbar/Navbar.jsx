@@ -5,9 +5,9 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div className='head bg-white p-1 '>
-        <div className="nav lg:w-[60%] w-[80%] mx-auto">
-        <div className="navbar">
+    <div className='head bg-white p-1  '>
+        <div className="nav  lg:w-[60%] w-[80%]  mx-auto">
+        <div className="navbar   top-0">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,15 +25,15 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn btn-ghost text-xl">এডু<span className='text-green-500 ml-[2px]'>হোম</span> </a> 
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <Link href='/' className='mx-3 text-xl'>হোম</Link>
+      <Link href='#home' className='mx-3 text-xl'>হোম</Link>
    
       <Link href='/' className='mx-3 text-xl'>আমাদের সম্পর্কে</Link>
    
-      <Link href='/' className='mx-3 text-xl'>কোরস</Link>
+      <Link  href='#course' className='mx-3 text-xl'>কোরস</Link>
   
     </ul>
   </div>

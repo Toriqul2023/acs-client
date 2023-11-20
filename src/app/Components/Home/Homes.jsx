@@ -5,7 +5,7 @@ import Homes1 from '../../../../public/home.jpg'
 
 const Homes = () => {
   return (
-    <div className='layer  bg-white lg:p-5  h-[700px]'>
+    <section id='home' className='layer  bg-white lg:p-5  h-[700px]'>
         <div className='lg:w-[60%] w-[80%] mx-auto '>
             <div className="row grid lg:grid-cols-2 justify-between items-center gap-3">
                 <div>
@@ -25,7 +25,7 @@ const Homes = () => {
             </div>
 
         </div>
-    </div>
+    </section>
   )
 }
 
